@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Alan</title>
+    <!-- CSS sem ser o inline usando os seletores -->
+    <style>
+      .p3 {
+        font-size: 14px;
+        color: white;
+      }
+
+      body {
+        font-family: monospace;
+        margin: 0;
+        padding: 0;
+        background-color: lightgray;
+      }
+
+      /* HEADER */
+      .head {
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 50px;
+      }
+
+      /* BOTÃO */
+      button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      /* CLASS */
+      .text {
+        font-size: 18px;
+        color: green;
+      }
+
+      /* ID */
+      #text2 {
+        font-size: 18px;
+        color: orange;
+      }
+
+      /* TAG */
+      p {
+        font-size: 16px;
+        color: blue;
+      }
+
+      /* MARGIN */
+      .margin {
+        margin: 100px;
+      }
+
+      h2 {
+        font-size: 30px;
+        color: rgb(34, 0, 128);
+        text-shadow: black 1px 1px 1px;
+      }
+
+      /* PADDING */
+      .p {
+        color: black;
+        background-color: darkgray;
+        width: 155px;
+      }
+
+      .p2 {
+        color: black;
+        background-color: darkgray;
+        width: 155px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="head">
+      <h3>Aula pra nath</h3>
+    </header>
+
+    <div style="text-align: center">
+      <!-- BOTÃO -->
+      <button>CLique aqui!</button>
+
+      <!-- CLASS -->
+      <p class="text">Algum texto</p>
+
+      <!-- ID -->
+      <p id="text2">Algum texto2</p>
+
+      <!-- TAG -->
+      <p>Algum texto3</p>
+    </div>
+
+    <hr />
+
+    <div>
+      <!-- Exemplo sem a margin -->
+      <h2 class="h2">Exemplo sem a margin!</h2>
+      <div
+        style="
+          background-color: darkgrey;
+          width: 225px;
+          padding: 20px;
+          display: flex;
+          gap: 5px;
+        "
+      >
+        <button>Clique aqui!</button>
+        <button>Clique aqui!</button>
+      </div>
+
+      <br />
+      <br />
+
+      <!-- Exemplo com a margin -->
+      <h2 class="h2">Exemplo com a margin!</h2>
+      <div
+        class="margin"
+        style="
+          background-color: darkgrey;
+          width: 225px;
+          padding: 20px;
+          display: flex;
+          gap: 5px;
+        "
+      >
+        <button>Clique aqui!</button>
+        <button>Clique aqui!</button>
+      </div>
+    </div>
+
+    <hr />
+
+    <div>
+      <!-- Exemplo sem o padding -->
+      <h2>Esse é um exemplo sem o padding!</h2>
+      <p class="p" style="margin-bottom: 100px">Esse é um texto!</p>
+
+      <!-- Exemplo com o padding -->
+      <h2>Esse é um exemplo com o padding!</h2>
+      <p class="p2">Esse é um texto</p>
+    </div>
+
+    <footer
+      style="
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        margin-top: 50px;
+      "
+    >
+      <p class="p3">Desenvolvido por &copy;Vini</p>
+    </footer>
+  </body>
+</html>
